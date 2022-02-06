@@ -1,0 +1,41 @@
+/* Base Styles */
+
+body {
+  font-family: $plexSans;
+  background-color: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $black;
+  font-family: $plexSans;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+p {
+  font: 17px/26px $plexSerif;
+  color: $black-pure;
+}
+
+a {
+  text-decoration: underline;
+}
+
+hr {
+  height: 1px;
+  background-color: $gray9;
+}
+
+svg {
+  text {
+    fill: $black;
+    font-family: $plexSans;
+  }
+}
