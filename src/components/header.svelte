@@ -15,11 +15,13 @@
     text-align: center;
     margin-bottom: 35px;
     padding-top: 5px;
+    text-transform: uppercase;
 
     h1 {
-      font-family: $plexSerif;
-      font-size: 46px;
+      font-family: $plexMono;
+      font-size: 22px;
       margin-top: 20px;
+      margin-bottom: 60px;
 
       @media (max-width: 375px) {
         font-size: 30px;
