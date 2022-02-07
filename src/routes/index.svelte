@@ -1,13 +1,15 @@
 <!-- SCRIPTS -->
 <script>
 import Header from '../components/header.svelte'
-import Chart from '../components/chart.svelte'
+import ChartD3 from '../components/chartD3.svelte'
+import ChartPlot from '../components/chartPlot.svelte'
 </script>
 
 <!-- DOC -->
 <template lang="pug">
   <Header/>
-  <Chart />
+  <ChartD3 />
+  <ChartPlot />
 </template>
 
 <!-- STYLES -->
