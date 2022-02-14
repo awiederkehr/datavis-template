@@ -24,8 +24,11 @@
   "type": "module",
   "dependencies": {
     "@observablehq/plot": "^0.4.0",
+    "@rollup/plugin-dsv": "^2.0.3",
     "d3": "^7.3.0",
+    "feather-icons": "^4.28.0",
     "lodash": "^4.17.21",
-    "svelte-preprocess": "^4.10.2"
+    "svelte-preprocess": "^4.10.2",
+    "textures": "^1.2.3"
   }
 }

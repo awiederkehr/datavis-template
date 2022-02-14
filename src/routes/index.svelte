@@ -3,6 +3,8 @@
 import Header from '../components/header.svelte'
 import ChartD3 from '../components/chartD3.svelte'
 import ChartPlot from '../components/chartPlot.svelte'
+import FeatherIcons from '../components/FeatherIcons.svelte'
+import Textures from '../components/textures.svelte'
 </script>
 
 <!-- DOC -->
@@ -10,6 +12,8 @@ import ChartPlot from '../components/chartPlot.svelte'
   <Header/>
   <ChartD3 />
   <ChartPlot />
+  <FeatherIcons />
+  <Textures />
 </template>
 
 <!-- STYLES -->

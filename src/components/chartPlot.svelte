@@ -1,7 +1,7 @@
 <script>
 import { onMount } from 'svelte';
-// import * as d3 from 'd3';
 import * as Plot from '@observablehq/plot';
+import Icon from '$components/helpers/icon.svelte';
 
 const data = [
   {name: 'Tollak', height: 300},
